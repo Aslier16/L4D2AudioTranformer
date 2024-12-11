@@ -204,7 +204,7 @@ def transAudio(self, source, targetIndex, index):
                 ffmpeg
                 .input(source)
                 .filter('afade', t='in', st=0, d=fade_in_duration)  # 淡入
-                .filter('afade', t='out', st=float(duration) - fade_out_duration, d=fade_out_duration)  # 淡出
+                .filter('afade', t='out', st=float(ffmpeg.probe(source)['format']['duration']) - fade_out_duration, d=fade_out_duration)  # 淡出
                 .filter('volume', volume=volume_target)
                 .output(
                     str(original),
