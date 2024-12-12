@@ -26,3 +26,5 @@ ps：填充不影响淡入淡出设置
 
 ### 附言
 第一次尝试，最初的想法是给出手动分类过的常用音频，但工作量超出预计，也更局限
+
+使用了[ffmpeg-python](https://github.com/kkroening/ffmpeg-python.git)处理音频
