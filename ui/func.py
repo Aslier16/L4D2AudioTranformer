@@ -196,7 +196,7 @@ def transAudio(self, source, targetIndex, index):
             fade_in_duration = self.fadeInTime.value()
             fade_out_duration = self.fadeOutTime.value()
         else:
-            fade_in_duration, fade_out_duration = 0
+            fade_in_duration = fade_out_duration = 0
         # 使用 ffmpeg 将源文件转换为相同格式的目标文件
 
         if not self.timeConsistent.isChecked():
@@ -338,6 +338,7 @@ def searchCheckBtn(self, serachbar):
         threads.append(t)
     for t in threads:
         t.join()
+
 
     searchFilter(self)
 
