@@ -24,9 +24,14 @@ ps：填充不影响淡入淡出设置
 
 3.添加自动vpk打包
 
+4.去除ffprobe依赖
+
+5.简化数据库，删除不必要数据
+
 ### 附言
 第一次尝试，最初的想法是给出手动分类过的常用音频，但工作量超出预计，也更局限
 
 
 使用了[ffmpeg-python](https://github.com/kkroening/ffmpeg-python.git)处理音频
+
 使用了[Pyside6](https://doc.qt.io/qtforpython-6/index.html)开发GUI
