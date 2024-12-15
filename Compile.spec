@@ -5,9 +5,9 @@ block_cipher = None
 a = Analysis(
     ['ui\\MainGUI.py'],
     pathex=['ui'],
-    binaries=[],
+    binaries=[('D:\\ffmpeg-N-116133-g03175b587c-win64-gpl\\bin\\ffmpeg.exe', '.'),('D:\\ffmpeg-N-116133-g03175b587c-win64-gpl\\bin\\ffprobe.exe', '.')],
     datas=[("E:\\PythonProject\\L4D2AudioTranformer_All\\dicGenerate\\*.db", "dicGenerate"),("blank_audio.wav",".")],
-    hiddenimports=[],
+    hiddenimports=['ffmpeg', 'PySide6'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
