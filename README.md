@@ -1,7 +1,8 @@
 # 预载了 求生之路2 本体及DLC sound中所有wav音频信息的的第三方批量音频转换工具
 ## 安装与使用
 请在Release中下载最新版本的exe
-视频使用演示
+
+[视频使用演示](https://www.bilibili.com/video/BV1zLqQY5EBr/?share_source=copy_web&vd_source=d9788e6dc1a6f65d8c8ce24376e3fe35)
 
 **注意：**
 为减少搜索卡顿，搜索音频时在完成输入后需要按下回车键进行搜索
