@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QFileDialog, QCheckBox, QWidget, QGridLayout, QVBoxLayout, QButtonGroup
+from PySide6.QtWidgets import QFileDialog, QCheckBox, QWidget, QGridLayout, QVBoxLayout, QButtonGroup, QLineEdit, QListWidget
 from PySide6.QtWidgets import QDialog, QLabel
 from PySide6.QtGui import QColor
 from PySide6.QtCore import Qt, QLocale
@@ -13,6 +13,7 @@ import sys
 import wave
 
 class SrcAudio:
+    """源音频文件属性类"""
     def __init__(self, path, target=[], volume=100):
         self.path = path
         self.target = target
@@ -26,7 +27,15 @@ def resource_path(relative_path):
     return Path(".").resolve() / relative_path
 
 
-def openFileDialog(self, LineEdit):
+def openFileDialog(self, LineEdit: QLineEdit):
+    """打开文件对话框，将选择的文件路径写入LineEdit
+
+    Args:
+        LineEdit (QLineEdit): 文件路径将被写入的LineEdit
+
+    Returns:
+        str: 返回选择的文件路径
+    """
     #打开文件对话框
     file_dialog = QFileDialog(self)
     file_path, _ = file_dialog.getOpenFileNames(self, "选择文件", "", "All Files (*)")
@@ -35,7 +44,13 @@ def openFileDialog(self, LineEdit):
     return file_path
 
 
-def updateListWidget(self, LineEdit, ListWidget):
+def updateListWidget(self, LineEdit: QLineEdit, ListWidget: QListWidget):
+    """将LineEdit中的文件路径依据";"同步到ListWidget中
+
+    Args:
+        LineEdit (QLineEdit): 文件路径来源
+        ListWidget (QListWidget): 被同步的ListWidget
+    """
     ListWidget.clear()
     file_path = LineEdit.text().split(";")
     for fpath in file_path: #检测文件是否存在，存在则添加到ListWidget
@@ -43,7 +58,12 @@ def updateListWidget(self, LineEdit, ListWidget):
             ListWidget.addItem(fpath)
 
 
-def generateCheckbox(self, db_path):
+def generateCheckbox(self, db_path: str):
+    """读取数据库，生成复选框
+
+    Args:
+        db_path (str): 数据库路径，一般为resource_path("dicGenerate/Audio.db")
+    """
     #设定滚动区域布局
     self.scrollAreaWidget = QWidget()
     self.scrollArea.setWidget(self.scrollAreaWidget)
@@ -81,7 +101,12 @@ def generateCheckbox(self, db_path):
     self.columnState = [1]*len(self.checkboxes)
 
 
-def createPlan(self, ListWidget):
+def createPlan(self, ListWidget: QListWidget):
+    """根据ListWidget中的文件路径生成计划(self.plans)
+
+    Args:
+        ListWidget (QListWidget): 输入音频文件路径的ListWidget
+    """
     self.file_path = getListWidgetItems(ListWidget)
     self.plans = [None] * ListWidget.count()
     for index in range(ListWidget.count()):
@@ -91,6 +116,7 @@ def createPlan(self, ListWidget):
 
 
 def setCheckbox(self):
+    """根据当前计划的target设置复选框的状态"""
     for index in range(len(self.checkboxes)):
         if self.plans[self.activePlan].target[index] == 0:
             self.checkboxes[index].setCheckState(Qt.Unchecked)
@@ -98,14 +124,27 @@ def setCheckbox(self):
             self.checkboxes[index].setCheckState(Qt.Checked)
 
 
-def getListWidgetItems(ListWidget):
+def getListWidgetItems(ListWidget: QListWidget) -> list:
+    """获取ListWidget中的所有内容
+
+    Args:
+        ListWidget (QListWidget): 要获取内容的ListWidget
+
+    Returns:
+        list: 返回ListWidget中的所有内容
+    """
     items = []
     for i in range(ListWidget.count()):
         items.append(ListWidget.item(i).text())
     return items
 
 
-def changePlan(self, item):
+def changePlan(self, item: int):
+    """更改当前计划
+
+    Args:
+        item (int): 被点击的ListWidget中的item的索引
+    """
     self.activePlan = self.inputFiles.row(item)
     print(self.activePlan)
     print(self.plans[self.activePlan].path, self.plans[self.activePlan].target)
@@ -113,12 +152,18 @@ def changePlan(self, item):
     self.Volume_spinBox.setValue(self.plans[self.activePlan].volume)
 
 
-def readPlan(self):
-    for checkbox in self.checkboxes:
-        checkbox.setCheckState(self.plans[self.activePlan].target[self.checkboxes.index()])
+# def readPlan(self):
+#     for checkbox in self.checkboxes:
+#         checkbox.setCheckState(self.plans[self.activePlan].target[self.checkboxes.index()])
 
 
-def makePlan(self, id, checked):
+def makePlan(self, id: int, checked: bool):
+    """更改计划(self.plans)中的目标
+
+    Args:
+        id (int): 被更改的目标在targets中的索引
+        checked (bool): 是否被选中
+    """
     if checked:
         self.plans[self.activePlan].target[id] = 2
     else:
@@ -126,14 +171,15 @@ def makePlan(self, id, checked):
     print(self.plans[self.activePlan].target)
 
 
-def readJson(jpath):
-    # path = Path(jpath)
-    with open(jpath, 'r', encoding='utf-8') as f:
-        targets = json.load(f)
-    return targets
+# def readJson(jpath):
+#     # path = Path(jpath)
+#     with open(jpath, 'r', encoding='utf-8') as f:
+#         targets = json.load(f)
+#     return targets
 
 
 def doPlan(self):
+    """执行计划"""
     successCount = 0
     totalCount = 0
     inflict = checkPlan(self)
@@ -152,6 +198,7 @@ def doPlan(self):
 
 
 def checkPlan(self):
+    """检查所有计划中是否存在重复选择的目标"""
     AllTargets = [[] for _ in range(len(self.targets))]
     for index in range(len(self.plans)):
         for j in range(len(self.plans[index].target)):
@@ -168,12 +215,22 @@ def checkPlan(self):
     return inflict
 
 
-def getSystemLanguage(self):
-    system_locale = QLocale.system()
-    self.language = system_locale.name()
+# def getSystemLanguage(self):
+#     system_locale = QLocale.system()
+#     self.language = system_locale.name()
 
 
-def transAudio(self, source, targetIndex, index):
+def transAudio(self, source: str , targetIndex: int, index: int) -> tuple:
+    """使用ffmpeg执行音频转换任务
+
+    Args:
+        source (str): 将被转换的音频文件路径，用于ffmpeg的input
+        targetIndex (int): 正在执行的转换任务在targets(ListWidget)中的索引
+        index (int): 正在执行的转换任务在inputFiles(ListWidget)中的索引
+
+    Returns:
+        tuple: 返回成功转换的数量(0)和总数量(1)
+    """
     successCount = 0
     totalCount = 0
     try:
@@ -190,53 +247,86 @@ def transAudio(self, source, targetIndex, index):
         duration = self.targets[targetIndex][3]['format']['duration']
         volume_target = self.plans[index].volume/100
 
-        # exception = ["Jukebox", "Concert"]
-
         if self.fadeInOutOption.isChecked():
             fade_in_duration = self.fadeInTime.value()
             fade_out_duration = self.fadeOutTime.value()
         else:
             fade_in_duration = fade_out_duration = 0
+
         # 使用 ffmpeg 将源文件转换为相同格式的目标文件
-
-        if not self.timeConsistent.isChecked():
-            ffmpeg_cmd = (
-                ffmpeg
-                .input(source)
-                .filter('afade', t='in', st=0, d=fade_in_duration)  # 淡入
-                .filter('afade', t='out', st=float(ffmpeg.probe(source)['format']['duration']) - fade_out_duration, d=fade_out_duration)  # 淡出
-                .filter('volume', volume=volume_target)
-                .output(
-                    str(original),
-                    format=format_name,
-                    acodec=codec_name,
-                    ac=channels,
-                    ar=sample_rate,
-                    bitrate=bit_rate,
-                    y=None,
-                    map_metadata=-1
+        if self.fadeInOutOption.isChecked() and (fade_in_duration != 0 or fade_out_duration != 0):
+            fade_in_duration = self.fadeInTime.value()
+            fade_out_duration = self.fadeOutTime.value()
+            if not self.timeConsistent.isChecked():
+                ffmpeg_cmd = (
+                    ffmpeg
+                    .input(source)
+                    .filter('afade', t='in', st=0, d=fade_in_duration)  # 淡入
+                    .filter('afade', t='out', st=float(ffmpeg.probe(source)['format']['duration']) - fade_out_duration, d=fade_out_duration)  # 淡出
+                    .filter('volume', volume=volume_target)
+                    .output(
+                        str(original),
+                        format=format_name,
+                        acodec=codec_name,
+                        ac=channels,
+                        ar=sample_rate,
+                        bitrate=bit_rate,
+                        y=None,
+                        map_metadata=-1
+                    )
                 )
-            )
+            else:
+                ffmpeg_cmd = (
+                    ffmpeg
+                    .input(source)
+                    .filter('afade', t='in', st=0, d=fade_in_duration)  # 淡入
+                    .filter('afade', t='out', st=float(duration) - fade_out_duration, d=fade_out_duration)  # 淡出
+                    .filter('volume', volume=volume_target)
+                    .output(
+                        str(original),
+                        format=format_name,
+                        acodec=codec_name,
+                        ac=channels,
+                        ar=sample_rate,
+                        bitrate=bit_rate,
+                        t=duration,
+                        y=None,
+                        map_metadata=-1
+                    )
+                )
         else:
-            ffmpeg_cmd = (
-                ffmpeg
-                .input(source)
-                .filter('afade', t='in', st=0, d=fade_in_duration)  # 淡入
-                .filter('afade', t='out', st=float(duration) - fade_out_duration, d=fade_out_duration)  # 淡出
-                .filter('volume', volume=volume_target)                
-                .output(
-                    str(original),
-                    format=format_name,
-                    acodec=codec_name,
-                    ac=channels,
-                    ar=sample_rate,
-                    bitrate=bit_rate,
-                    t=duration,
-                    y=None,
-                    map_metadata=-1
+            if not self.timeConsistent.isChecked():
+                ffmpeg_cmd = (
+                    ffmpeg
+                    .input(source)
+                    .output(
+                        str(original),
+                        format=format_name,
+                        acodec=codec_name,
+                        ac=channels,
+                        ar=sample_rate,
+                        bitrate=bit_rate,
+                        y=None,
+                        map_metadata=-1
+                    )
                 )
-            )
-
+            else:
+                ffmpeg_cmd = (
+                    ffmpeg
+                    .input(source)
+                    .output(
+                        str(original),
+                        format=format_name,
+                        acodec=codec_name,
+                        ac=channels,
+                        ar=sample_rate,
+                        bitrate=bit_rate,
+                        t=duration,
+                        y=None,
+                        map_metadata=-1
+                    )
+                )
+            
         ffmpeg_cmd.run()
         silence = resource_path("./blank_audio.wav")
         Concat_count = 0
@@ -288,12 +378,20 @@ def transAudio(self, source, targetIndex, index):
     return successCount, totalCount
 
 
-def displayOptions(self, object, on):
-    for child in object.findChildren(QWidget):
-        child.setVisible(on)
+# def displayOptions(self, object, on):
+#     for child in object.findChildren(QWidget):
+#         child.setVisible(on)
 
 
-def creatFolder(self, targetIndex):
+def creatFolder(self, targetIndex: int) -> Path:
+    """创建输出文件夹供ffmepg输出
+
+    Args:
+        targetIndex (int): 目标在targets中的索引
+
+    Returns:
+        Path: 返回创建的文件夹路径
+    """
     temp = "./output/" + "/".join(self.targets[targetIndex][2].split("\\")[6:-1])
     path = Path(temp)
     path.mkdir(parents=True, exist_ok=True)
@@ -301,7 +399,13 @@ def creatFolder(self, targetIndex):
     return path
 
 
-def searchInput(self, serachbar, listWidget):
+def searchInput(self, serachbar: QLineEdit, listWidget: QListWidget):
+    """源音频文件搜索框
+
+    Args:
+        serachbar (QLineEdit): 搜索框
+        listWidget (QListWidget): 要搜索的ListWidget
+    """
     search = serachbar.text()
     if search != "":
         for i in range(listWidget.count()):
@@ -311,7 +415,12 @@ def searchInput(self, serachbar, listWidget):
             listWidget.item(i).setHidden(False)
 
 
-def searchCheckBtn(self, serachbar):
+def searchCheckBtn(self, serachbar: QLineEdit):
+    """搜索复选框
+
+    Args:
+        serachbar (QLineEdit): 搜索框
+    """
     text = serachbar.text()
 
     def searchText(self, text, rangeAssembled):
@@ -344,6 +453,7 @@ def searchCheckBtn(self, serachbar):
 
 
 def searchFilter(self):
+    """根据搜索结果显示复选框"""
     for i in range(len(self.checkboxes)):
         if self.searchState[i] == 0 or self.columnState[i] == 0:
             self.checkboxes[i].hide()
@@ -352,6 +462,7 @@ def searchFilter(self):
 
 
 class FinishWindow(QDialog):
+    """完成窗口"""
     def __init__(self, parent=None, successCount=0, totalCount=0, inflict=False):
         super().__init__(parent)
         self.setWindowTitle("运行完毕")
@@ -371,5 +482,10 @@ class FinishWindow(QDialog):
         self.setLayout(layout)
 
 
-def updateVolume(self, i):
+def updateVolume(self, i: int):
+    """更新音量
+
+    Args:
+        i (int): 音量值
+    """
     self.plans[self.activePlan].volume = i

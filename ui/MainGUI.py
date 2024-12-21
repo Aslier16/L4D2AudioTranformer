@@ -19,7 +19,7 @@ class MyWindow(QWidget, Ui_Form):
         self.label_6.hide()
         self.ouputPathLineEdit.hide()
         self.vpkpacking.hide()
-        getSystemLanguage(self)
+        # getSystemLanguage(self)
         self.targetSort_ComboBox.hide() 
         self.searchBar_input.setText("")
         self.searchBar_target.setText("")
