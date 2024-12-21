@@ -255,8 +255,8 @@ def transAudio(self, source: str , targetIndex: int, index: int) -> tuple:
 
         # 使用 ffmpeg 将源文件转换为相同格式的目标文件
         if self.fadeInOutOption.isChecked() and (fade_in_duration != 0 or fade_out_duration != 0):
-            fade_in_duration = self.fadeInTime.value()
-            fade_out_duration = self.fadeOutTime.value()
+            if fade_in_duration == 0 and fade_out_duration != 0:
+                fade_in_duration = 0.001
             if not self.timeConsistent.isChecked():
                 ffmpeg_cmd = (
                     ffmpeg

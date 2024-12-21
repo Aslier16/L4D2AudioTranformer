@@ -41,7 +41,7 @@ class MyWindow(QWidget, Ui_Form):
         # 搜索框绑定事件
         self.searchBar_input.textChanged.connect(lambda:searchInput(self,self.searchBar_input,self.inputFiles))
         self.searchBar_target.returnPressed.connect(lambda:searchCheckBtn(self,self.searchBar_target))
-  
+
 
 if __name__ == "__main__":
     app = QApplication()
