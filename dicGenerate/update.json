@@ -1,0 +1,3440 @@
+[
+    [
+        "metal_heavy_impact_double_impact.wav",
+        "update\\sound\\animation\\metal_heavy_impact_double_impact.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411281",
+                "duration": "4.304694"
+            }
+        }
+    ],
+    [
+        "metal_heavy_impact_original.wav",
+        "update\\sound\\animation\\metal_heavy_impact_original.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411282",
+                "duration": "4.269138"
+            }
+        }
+    ],
+    [
+        "metal_heavy_impact_sudden_impact.wav",
+        "update\\sound\\animation\\metal_heavy_impact_sudden_impact.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411284",
+                "duration": "4.178299"
+            }
+        }
+    ],
+    [
+        "plane_dist_explosion.wav",
+        "update\\sound\\animation\\plane_dist_explosion.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411274",
+                "duration": "4.760816"
+            }
+        }
+    ],
+    [
+        "plane_engine_explode.wav",
+        "update\\sound\\animation\\plane_engine_explode.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411712",
+                "duration": "2.000000"
+            }
+        }
+    ],
+    [
+        "plane_flyover.wav",
+        "update\\sound\\animation\\plane_flyover.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411227",
+                "duration": "12.650249"
+            }
+        }
+    ],
+    [
+        "plane_flyover_short.wav",
+        "update\\sound\\animation\\plane_flyover_short.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411235",
+                "duration": "10.006372"
+            }
+        }
+    ],
+    [
+        "powerdown1c.wav",
+        "update\\sound\\animation\\powerdown1c.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411357",
+                "duration": "2.231746"
+            }
+        }
+    ],
+    [
+        "checkpointplankremove.wav",
+        "update\\sound\\doors\\checkpointplankremove.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "22050"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "352984",
+                "duration": "1.906122"
+            }
+        }
+    ],
+    [
+        "checkpointplankremove2.wav",
+        "update\\sound\\doors\\checkpointplankremove2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "22050"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "352984",
+                "duration": "1.906122"
+            }
+        }
+    ],
+    [
+        "door_lighthouse_checkpoint_move1.wav",
+        "update\\sound\\doors\\door_lighthouse_checkpoint_move1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707998",
+                "duration": "0.847120"
+            }
+        }
+    ],
+    [
+        "flashlight2.wav",
+        "update\\sound\\items\\flashlight2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "22050"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "734957",
+                "duration": "0.027256"
+            }
+        }
+    ],
+    [
+        "warning.wav",
+        "update\\sound\\resource\\warning.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "11025"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "180806",
+                "duration": "0.221497"
+            }
+        }
+    ],
+    [
+        "bigreward.wav",
+        "update\\sound\\ui\\bigreward.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "709826",
+                "duration": "1.241678"
+            }
+        }
+    ],
+    [
+        "axe_deploy_1.wav",
+        "update\\sound\\weapons\\axe\\axe_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "bat_deploy_1.wav",
+        "update\\sound\\weapons\\bat\\bat_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "bat_impact_world1.wav",
+        "update\\sound\\weapons\\cricketbat\\bat_impact_world1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412518",
+                "duration": "0.789478"
+            }
+        }
+    ],
+    [
+        "bat_impact_world2.wav",
+        "update\\sound\\weapons\\cricketbat\\bat_impact_world2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411647",
+                "duration": "0.786576"
+            }
+        }
+    ],
+    [
+        "bat_swing_miss1.wav",
+        "update\\sound\\weapons\\cricketbat\\bat_swing_miss1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413045",
+                "duration": "0.701905"
+            }
+        }
+    ],
+    [
+        "bat_swing_miss2.wav",
+        "update\\sound\\weapons\\cricketbat\\bat_swing_miss2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412729",
+                "duration": "0.680385"
+            }
+        }
+    ],
+    [
+        "cricket_bat_deploy_1.wav",
+        "update\\sound\\weapons\\cricketbat\\cricket_bat_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "melee_cricket_bat_01.wav",
+        "update\\sound\\weapons\\cricketbat\\melee_cricket_bat_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411998",
+                "duration": "0.441383"
+            }
+        }
+    ],
+    [
+        "melee_cricket_bat_02.wav",
+        "update\\sound\\weapons\\cricketbat\\melee_cricket_bat_02.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411842",
+                "duration": "0.547143"
+            }
+        }
+    ],
+    [
+        "melee_cricket_bat_03.wav",
+        "update\\sound\\weapons\\cricketbat\\melee_cricket_bat_03.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411812",
+                "duration": "0.574286"
+            }
+        }
+    ],
+    [
+        "crowbar_deploy_1.wav",
+        "update\\sound\\weapons\\crowbar\\crowbar_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "defibrillator_deploy_1.wav",
+        "update\\sound\\weapons\\defibrillator\\defibrillator_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "golf_club_deploy_1.wav",
+        "update\\sound\\weapons\\golf_club\\golf_club_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "guitar_deploy_1.wav",
+        "update\\sound\\weapons\\guitar\\guitar_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "katana_deploy_1.wav",
+        "update\\sound\\weapons\\katana\\katana_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "machete_deploy_1.wav",
+        "update\\sound\\weapons\\machete\\machete_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "pan_deploy_1.wav",
+        "update\\sound\\weapons\\pan\\pan_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "pitchfork_deploy_1.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_flesh1.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_flesh1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411646",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_flesh2.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_flesh2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411646",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_flesh3.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_flesh3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411646",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_flesh4.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_flesh4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411646",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_world1.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_world1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706046",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_world2.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_world2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706046",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_world3.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_world3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706046",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact_world4.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_impact_world4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706046",
+                "duration": "0.788866"
+            }
+        }
+    ],
+    [
+        "pitchfork_swing_miss1.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_swing_miss1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411701",
+                "duration": "0.701905"
+            }
+        }
+    ],
+    [
+        "pitchfork_swing_miss2.wav",
+        "update\\sound\\weapons\\pitchfork\\pitchfork_swing_miss2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411718",
+                "duration": "0.680385"
+            }
+        }
+    ],
+    [
+        "shovel_deploy_1.wav",
+        "update\\sound\\weapons\\shovel\\shovel_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "shovel_impact_flesh1.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_flesh1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411858",
+                "duration": "1.360703"
+            }
+        }
+    ],
+    [
+        "shovel_impact_flesh2.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_flesh2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411858",
+                "duration": "1.360703"
+            }
+        }
+    ],
+    [
+        "shovel_impact_flesh3.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_flesh3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411755",
+                "duration": "0.633651"
+            }
+        }
+    ],
+    [
+        "shovel_impact_flesh4.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_flesh4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411849",
+                "duration": "1.378413"
+            }
+        }
+    ],
+    [
+        "shovel_impact_world1.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_world1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411493",
+                "duration": "1.197687"
+            }
+        }
+    ],
+    [
+        "shovel_impact_world2.wav",
+        "update\\sound\\weapons\\shovel\\shovel_impact_world2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411493",
+                "duration": "1.198413"
+            }
+        }
+    ],
+    [
+        "shovel_swing_miss1.wav",
+        "update\\sound\\weapons\\shovel\\shovel_swing_miss1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411632",
+                "duration": "0.814603"
+            }
+        }
+    ],
+    [
+        "shovel_swing_miss2.wav",
+        "update\\sound\\weapons\\shovel\\shovel_swing_miss2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411630",
+                "duration": "0.818866"
+            }
+        }
+    ],
+    [
+        "tonfa_deploy_1.wav",
+        "update\\sound\\weapons\\tonfa\\tonfa_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412915",
+                "duration": "0.689615"
+            }
+        }
+    ],
+    [
+        "smg_clip_in_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_clip_in_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1449295",
+                "duration": "0.406984"
+            }
+        }
+    ],
+    [
+        "smg_clip_locked_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_clip_locked_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1435022",
+                "duration": "0.644082"
+            }
+        }
+    ],
+    [
+        "smg_clip_out_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_clip_out_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1455520",
+                "duration": "0.300000"
+            }
+        }
+    ],
+    [
+        "smg_fullautobutton_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_fullautobutton_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1454031",
+                "duration": "0.280181"
+            }
+        }
+    ],
+    [
+        "smg_slideback_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_slideback_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413954",
+                "duration": "0.377732"
+            }
+        }
+    ],
+    [
+        "smg_slideforward_1.wav",
+        "update\\sound\\weapons\\smg_silenced\\gunother\\smg_slideforward_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1470395",
+                "duration": "0.261905"
+            }
+        }
+    ],
+    [
+        "shotgun_deploy_1.wav",
+        "update\\sound\\weapons\\shotgun_chrome\\gunother\\shotgun_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413697",
+                "duration": "0.672721"
+            }
+        }
+    ],
+    [
+        "shotgun_load_shell_2.wav",
+        "update\\sound\\weapons\\shotgun_chrome\\gunother\\shotgun_load_shell_2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707558",
+                "duration": "0.531156"
+            }
+        }
+    ],
+    [
+        "shotgun_load_shell_4.wav",
+        "update\\sound\\weapons\\shotgun_chrome\\gunother\\shotgun_load_shell_4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707446",
+                "duration": "0.563084"
+            }
+        }
+    ],
+    [
+        "shotgun_pump_1.wav",
+        "update\\sound\\weapons\\shotgun_chrome\\gunother\\shotgun_pump_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706047",
+                "duration": "0.786576"
+            }
+        }
+    ],
+    [
+        "sg552-1_incendiary.wav",
+        "update\\sound\\weapons\\sg552\\gunfire\\sg552-1_incendiary.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411425",
+                "duration": "1.557143"
+            }
+        }
+    ],
+    [
+        "sg552_deploy.wav",
+        "update\\sound\\weapons\\sg552\\gunother\\sg552_deploy.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412611",
+                "duration": "0.736395"
+            }
+        }
+    ],
+    [
+        "scout_fire-1.wav",
+        "update\\sound\\weapons\\scout\\gunfire\\scout_fire-1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411567",
+                "duration": "3.220000"
+            }
+        }
+    ],
+    [
+        "scout_fire-1_incendiary.wav",
+        "update\\sound\\weapons\\scout\\gunfire\\scout_fire-1_incendiary.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411309",
+                "duration": "3.220000"
+            }
+        }
+    ],
+    [
+        "scout_deploy.wav",
+        "update\\sound\\weapons\\scout\\gunother\\scout_deploy.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412611",
+                "duration": "0.736395"
+            }
+        }
+    ],
+    [
+        "mp5-1_incendiary.wav",
+        "update\\sound\\weapons\\mp5navy\\gunfire\\mp5-1_incendiary.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "22050"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705785",
+                "duration": "1.896780"
+            }
+        }
+    ],
+    [
+        "mp5_deploy.wav",
+        "update\\sound\\weapons\\mp5navy\\gunother\\mp5_deploy.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412611",
+                "duration": "0.736395"
+            }
+        }
+    ],
+    [
+        "pistol_helpinghandextend.wav",
+        "update\\sound\\weapons\\magnum\\gunother\\pistol_helpinghandextend.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1414097",
+                "duration": "0.579909"
+            }
+        }
+    ],
+    [
+        "pistol_helpinghandretract.wav",
+        "update\\sound\\weapons\\magnum\\gunother\\pistol_helpinghandretract.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413364",
+                "duration": "0.775896"
+            }
+        }
+    ],
+    [
+        "rifle_clip_in_1.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_clip_in_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1421444",
+                "duration": "1.171338"
+            }
+        }
+    ],
+    [
+        "rifle_clip_locked_1.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_clip_locked_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1488133",
+                "duration": "0.155986"
+            }
+        }
+    ],
+    [
+        "rifle_clip_out_1.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_clip_out_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1473260",
+                "duration": "0.207279"
+            }
+        }
+    ],
+    [
+        "rifle_deploy_1.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1429395",
+                "duration": "0.697324"
+            }
+        }
+    ],
+    [
+        "rifle_slideback.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_slideback.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1414005",
+                "duration": "0.370635"
+            }
+        }
+    ],
+    [
+        "rifle_slideforward.wav",
+        "update\\sound\\weapons\\machinegun_m60\\gunother\\rifle_slideforward.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1433262",
+                "duration": "0.575102"
+            }
+        }
+    ],
+    [
+        "flaregun_explode_1.wav",
+        "update\\sound\\weapons\\flaregun\\gunfire\\flaregun_explode_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411355",
+                "duration": "2.261383"
+            }
+        }
+    ],
+    [
+        "flaregun_fire_1.wav",
+        "update\\sound\\weapons\\flaregun\\gunfire\\flaregun_fire_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411351",
+                "duration": "2.314422"
+            }
+        }
+    ],
+    [
+        "flaregun_fire_2.wav",
+        "update\\sound\\weapons\\flaregun\\gunfire\\flaregun_fire_2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411351",
+                "duration": "2.314422"
+            }
+        }
+    ],
+    [
+        "awp1_incendiary.wav",
+        "update\\sound\\weapons\\awp\\gunfire\\awp1_incendiary.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411285",
+                "duration": "4.130998"
+            }
+        }
+    ],
+    [
+        "autoshotgun_boltback.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\autoshotgun_boltback.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1414005",
+                "duration": "0.370635"
+            }
+        }
+    ],
+    [
+        "autoshotgun_boltforward.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\autoshotgun_boltforward.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1433262",
+                "duration": "0.575102"
+            }
+        }
+    ],
+    [
+        "autoshotgun_deploy_1.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\autoshotgun_deploy_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413697",
+                "duration": "0.672721"
+            }
+        }
+    ],
+    [
+        "autoshotgun_pump_1.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\autoshotgun_pump_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706047",
+                "duration": "0.786576"
+            }
+        }
+    ],
+    [
+        "auto_shotgun_load_shell_2.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\auto_shotgun_load_shell_2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707558",
+                "duration": "0.531156"
+            }
+        }
+    ],
+    [
+        "auto_shotgun_load_shell_4.wav",
+        "update\\sound\\weapons\\auto_shotgun_spas\\gunother\\auto_shotgun_load_shell_4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707446",
+                "duration": "0.563084"
+            }
+        }
+    ],
+    [
+        "communitygeneric01.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\communitygeneric01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707580",
+                "duration": "1.615488"
+            }
+        }
+    ],
+    [
+        "communitygeneric04.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\communitygeneric04.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707988",
+                "duration": "1.493764"
+            }
+        }
+    ],
+    [
+        "communitygeneric05.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\communitygeneric05.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708200",
+                "duration": "3.752608"
+            }
+        }
+    ],
+    [
+        "communitygeneric06.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\communitygeneric06.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708392",
+                "duration": "1.280476"
+            }
+        }
+    ],
+    [
+        "fall04.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\fall04.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708774",
+                "duration": "0.612381"
+            }
+        }
+    ],
+    [
+        "reactionstartled03.wav",
+        "update\\sound\\player\\survivor\\voice\\biker\\reactionstartled03.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705896",
+                "duration": "1.187914"
+            }
+        }
+    ],
+    [
+        "dlc1_c6m1_weddingwitchattacking01.wav",
+        "update\\sound\\player\\survivor\\voice\\gambler\\dlc1_c6m1_weddingwitchattacking01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705794",
+                "duration": "1.809388"
+            }
+        }
+    ],
+    [
+        "dlc1_c6m1_weddingwitchattacking02.wav",
+        "update\\sound\\player\\survivor\\voice\\gambler\\dlc1_c6m1_weddingwitchattacking02.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705809",
+                "duration": "1.680136"
+            }
+        }
+    ],
+    [
+        "fall04.wav",
+        "update\\sound\\player\\survivor\\voice\\manager\\fall04.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "710492",
+                "duration": "0.878095"
+            }
+        }
+    ],
+    [
+        "fall04.wav",
+        "update\\sound\\player\\survivor\\voice\\teengirl\\fall04.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708011",
+                "duration": "0.915646"
+            }
+        }
+    ],
+    [
+        "hunter_attackmix_01.wav",
+        "update\\sound\\player\\hunter\\voice\\attack\\hunter_attackmix_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708628",
+                "duration": "3.238163"
+            }
+        }
+    ],
+    [
+        "hunter_attackmix_02.wav",
+        "update\\sound\\player\\hunter\\voice\\attack\\hunter_attackmix_02.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708628",
+                "duration": "3.238163"
+            }
+        }
+    ],
+    [
+        "hunter_attackmix_03.wav",
+        "update\\sound\\player\\hunter\\voice\\attack\\hunter_attackmix_03.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "708628",
+                "duration": "3.238163"
+            }
+        }
+    ],
+    [
+        "shriek_1.wav",
+        "update\\sound\\player\\hunter\\voice\\attack\\shriek_1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706286",
+                "duration": "3.238163"
+            }
+        }
+    ],
+    [
+        "foliage1.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\foliage1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412052",
+                "duration": "0.413605"
+            }
+        }
+    ],
+    [
+        "foliage2.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\foliage2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412204",
+                "duration": "0.349751"
+            }
+        }
+    ],
+    [
+        "foliage3.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\foliage3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412215",
+                "duration": "0.346848"
+            }
+        }
+    ],
+    [
+        "foliage4.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\foliage4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412424",
+                "duration": "0.287347"
+            }
+        }
+    ],
+    [
+        "snow1.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\snow1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706793",
+                "duration": "0.871655"
+            }
+        }
+    ],
+    [
+        "snow2.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\snow2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707230",
+                "duration": "0.637574"
+            }
+        }
+    ],
+    [
+        "snow3.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\snow3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707418",
+                "duration": "0.571973"
+            }
+        }
+    ],
+    [
+        "snow4.wav",
+        "update\\sound\\player\\footsteps\\survivor\\run\\snow4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707012",
+                "duration": "0.736621"
+            }
+        }
+    ],
+    [
+        "foliage1.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\foliage1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412292",
+                "duration": "0.322177"
+            }
+        }
+    ],
+    [
+        "foliage2.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\foliage2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412429",
+                "duration": "0.285896"
+            }
+        }
+    ],
+    [
+        "foliage3.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\foliage3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412284",
+                "duration": "0.325079"
+            }
+        }
+    ],
+    [
+        "foliage4.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\foliage4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412292",
+                "duration": "0.322177"
+            }
+        }
+    ],
+    [
+        "snow1.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\snow1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "719269",
+                "duration": "0.639048"
+            }
+        }
+    ],
+    [
+        "snow2.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\snow2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "718619",
+                "duration": "0.623039"
+            }
+        }
+    ],
+    [
+        "snow3.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\snow3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "717748",
+                "duration": "0.719093"
+            }
+        }
+    ],
+    [
+        "snow4.wav",
+        "update\\sound\\player\\footsteps\\survivor\\walk\\snow4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "715988",
+                "duration": "0.840952"
+            }
+        }
+    ],
+    [
+        "blade_impact_hard1.wav",
+        "update\\sound\\physics\\metal\\blade_impact_hard1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411522",
+                "duration": "1.090930"
+            }
+        }
+    ],
+    [
+        "blade_impact_hard2.wav",
+        "update\\sound\\physics\\metal\\blade_impact_hard2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411575",
+                "duration": "0.940249"
+            }
+        }
+    ],
+    [
+        "blade_impact_hard3.wav",
+        "update\\sound\\physics\\metal\\blade_impact_hard3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411465",
+                "duration": "1.325692"
+            }
+        }
+    ],
+    [
+        "blade_impact_hard4.wav",
+        "update\\sound\\physics\\metal\\blade_impact_hard4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411467",
+                "duration": "1.316440"
+            }
+        }
+    ],
+    [
+        "blade_impact_soft1.wav",
+        "update\\sound\\physics\\metal\\blade_impact_soft1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412649",
+                "duration": "0.242472"
+            }
+        }
+    ],
+    [
+        "blade_impact_soft2.wav",
+        "update\\sound\\physics\\metal\\blade_impact_soft2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412668",
+                "duration": "0.239456"
+            }
+        }
+    ],
+    [
+        "blade_impact_soft3.wav",
+        "update\\sound\\physics\\metal\\blade_impact_soft3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412430",
+                "duration": "0.286281"
+            }
+        }
+    ],
+    [
+        "blade_impact_soft4.wav",
+        "update\\sound\\physics\\metal\\blade_impact_soft4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412418",
+                "duration": "0.288549"
+            }
+        }
+    ],
+    [
+        "chainsaw_impact1.wav",
+        "update\\sound\\physics\\metal\\chainsaw_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411736",
+                "duration": "0.656485"
+            }
+        }
+    ],
+    [
+        "chainsaw_impact2.wav",
+        "update\\sound\\physics\\metal\\chainsaw_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411733",
+                "duration": "0.658889"
+            }
+        }
+    ],
+    [
+        "chainsaw_impact3.wav",
+        "update\\sound\\physics\\metal\\chainsaw_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411733",
+                "duration": "0.658889"
+            }
+        }
+    ],
+    [
+        "chainsaw_impact4.wav",
+        "update\\sound\\physics\\metal\\chainsaw_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411766",
+                "duration": "0.621882"
+            }
+        }
+    ],
+    [
+        "crowbar_impact1.wav",
+        "update\\sound\\physics\\metal\\crowbar_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707604",
+                "duration": "0.646531"
+            }
+        }
+    ],
+    [
+        "crowbar_impact2.wav",
+        "update\\sound\\physics\\metal\\crowbar_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "707935",
+                "duration": "0.554717"
+            }
+        }
+    ],
+    [
+        "fireaxe_impact1.wav",
+        "update\\sound\\physics\\metal\\fireaxe_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412152",
+                "duration": "0.369320"
+            }
+        }
+    ],
+    [
+        "fireaxe_impact2.wav",
+        "update\\sound\\physics\\metal\\fireaxe_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412419",
+                "duration": "0.288345"
+            }
+        }
+    ],
+    [
+        "fireaxe_impact3.wav",
+        "update\\sound\\physics\\metal\\fireaxe_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412899",
+                "duration": "0.207256"
+            }
+        }
+    ],
+    [
+        "fireaxe_impact4.wav",
+        "update\\sound\\physics\\metal\\fireaxe_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411670",
+                "duration": "0.747642"
+            }
+        }
+    ],
+    [
+        "golfclub_impact1.wav",
+        "update\\sound\\physics\\metal\\golfclub_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411997",
+                "duration": "0.441927"
+            }
+        }
+    ],
+    [
+        "golfclub_impact2.wav",
+        "update\\sound\\physics\\metal\\golfclub_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411997",
+                "duration": "0.441927"
+            }
+        }
+    ],
+    [
+        "golfclub_impact3.wav",
+        "update\\sound\\physics\\metal\\golfclub_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412278",
+                "duration": "0.325964"
+            }
+        }
+    ],
+    [
+        "golfclub_impact4.wav",
+        "update\\sound\\physics\\metal\\golfclub_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412135",
+                "duration": "0.376032"
+            }
+        }
+    ],
+    [
+        "pan_impact1.wav",
+        "update\\sound\\physics\\metal\\pan_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411493",
+                "duration": "1.200408"
+            }
+        }
+    ],
+    [
+        "pan_impact2.wav",
+        "update\\sound\\physics\\metal\\pan_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411492",
+                "duration": "1.202585"
+            }
+        }
+    ],
+    [
+        "pan_impact3.wav",
+        "update\\sound\\physics\\metal\\pan_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411493",
+                "duration": "1.198413"
+            }
+        }
+    ],
+    [
+        "pan_impact4.wav",
+        "update\\sound\\physics\\metal\\pan_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411493",
+                "duration": "1.201859"
+            }
+        }
+    ],
+    [
+        "sword_impact1.wav",
+        "update\\sound\\physics\\metal\\sword_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706129",
+                "duration": "0.665238"
+            }
+        }
+    ],
+    [
+        "sword_impact2.wav",
+        "update\\sound\\physics\\metal\\sword_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706276",
+                "duration": "0.520023"
+            }
+        }
+    ],
+    [
+        "sword_impact3.wav",
+        "update\\sound\\physics\\metal\\sword_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706874",
+                "duration": "0.703061"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_heavy1.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_heavy1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705813",
+                "duration": "1.653469"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_heavy2.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_heavy2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705889",
+                "duration": "1.214694"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_heavy3.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_heavy3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705969",
+                "duration": "0.952766"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_heavy4.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_heavy4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706031",
+                "duration": "0.814853"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_medium1.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_medium1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705979",
+                "duration": "0.925964"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_medium2.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_medium2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706618",
+                "duration": "0.345397"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_medium3.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_medium3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706097",
+                "duration": "0.708503"
+            }
+        }
+    ],
+    [
+        "vehicle_impact_medium4.wav",
+        "update\\sound\\physics\\metal\\vehicle_impact_medium4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "706570",
+                "duration": "0.362789"
+            }
+        }
+    ],
+    [
+        "vehicle_rollover1.wav",
+        "update\\sound\\physics\\metal\\vehicle_rollover1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705758",
+                "duration": "2.218345"
+            }
+        }
+    ],
+    [
+        "vehicle_rollover2.wav",
+        "update\\sound\\physics\\metal\\vehicle_rollover2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705793",
+                "duration": "1.822789"
+            }
+        }
+    ],
+    [
+        "bat_impact1.wav",
+        "update\\sound\\physics\\wood\\bat_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411825",
+                "duration": "0.563605"
+            }
+        }
+    ],
+    [
+        "bat_impact2.wav",
+        "update\\sound\\physics\\wood\\bat_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412149",
+                "duration": "0.370839"
+            }
+        }
+    ],
+    [
+        "cricketbat_impact1.wav",
+        "update\\sound\\physics\\wood\\cricketbat_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411532",
+                "duration": "1.057823"
+            }
+        }
+    ],
+    [
+        "cricketbat_impact2.wav",
+        "update\\sound\\physics\\wood\\cricketbat_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411561",
+                "duration": "0.974898"
+            }
+        }
+    ],
+    [
+        "cricketbat_impact3.wav",
+        "update\\sound\\physics\\wood\\cricketbat_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411654",
+                "duration": "0.773107"
+            }
+        }
+    ],
+    [
+        "cricketbat_impact4.wav",
+        "update\\sound\\physics\\wood\\cricketbat_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411561",
+                "duration": "0.974898"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact1.wav",
+        "update\\sound\\physics\\wood\\pitchfork_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411659",
+                "duration": "0.766349"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact2.wav",
+        "update\\sound\\physics\\wood\\pitchfork_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411611",
+                "duration": "0.856893"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact3.wav",
+        "update\\sound\\physics\\wood\\pitchfork_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411799",
+                "duration": "0.588571"
+            }
+        }
+    ],
+    [
+        "pitchfork_impact4.wav",
+        "update\\sound\\physics\\wood\\pitchfork_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411966",
+                "duration": "0.458821"
+            }
+        }
+    ],
+    [
+        "shovel_impact1.wav",
+        "update\\sound\\physics\\wood\\shovel_impact1.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411659",
+                "duration": "0.766349"
+            }
+        }
+    ],
+    [
+        "shovel_impact2.wav",
+        "update\\sound\\physics\\wood\\shovel_impact2.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411611",
+                "duration": "0.856893"
+            }
+        }
+    ],
+    [
+        "shovel_impact3.wav",
+        "update\\sound\\physics\\wood\\shovel_impact3.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411744",
+                "duration": "0.646712"
+            }
+        }
+    ],
+    [
+        "shovel_impact4.wav",
+        "update\\sound\\physics\\wood\\shovel_impact4.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411729",
+                "duration": "0.663311"
+            }
+        }
+    ],
+    [
+        "beel.wav",
+        "update\\sound\\npc\\tower_radio\\beel.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.000000"
+            }
+        }
+    ],
+    [
+        "radio_1a.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1a.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705650",
+                "duration": "7.028549"
+            }
+        }
+    ],
+    [
+        "radio_1b.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1b.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1ca.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1ca.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1cb.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1cb.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1d.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1d.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1e.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1e.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1f.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1f.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "radio_1g.wav",
+        "update\\sound\\npc\\tower_radio\\radio_1g.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.014240"
+            }
+        }
+    ],
+    [
+        "staticloop.wav",
+        "update\\sound\\npc\\tower_radio\\staticloop.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 1,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "705670",
+                "duration": "5.000000"
+            }
+        }
+    ],
+    [
+        "tls_quarantine_01.wav",
+        "update\\sound\\music\\contagion\\tls_quarantine_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411226",
+                "duration": "13.190930"
+            }
+        }
+    ],
+    [
+        "tls_quarantine_02.wav",
+        "update\\sound\\music\\contagion\\tls_quarantine_02.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411230",
+                "duration": "11.478254"
+            }
+        }
+    ],
+    [
+        "tls_quarantine_03.wav",
+        "update\\sound\\music\\contagion\\tls_quarantine_03.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411234",
+                "duration": "10.262902"
+            }
+        }
+    ],
+    [
+        "intro_music_laststand.wav",
+        "update\\sound\\music\\stmusic\\intro_music_laststand.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411214",
+                "duration": "24.713016"
+            }
+        }
+    ],
+    [
+        "tank_metal.wav",
+        "update\\sound\\music\\tank\\tank_metal.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411224",
+                "duration": "91.428662"
+            }
+        }
+    ],
+    [
+        "dotd2_100_01.wav",
+        "update\\sound\\music\\zombat\\dotd2_100_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411890",
+                "duration": "9.600000"
+            }
+        }
+    ],
+    [
+        "dotd2_110_01.wav",
+        "update\\sound\\music\\zombat\\dotd2_110_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411863",
+                "duration": "8.727279"
+            }
+        }
+    ],
+    [
+        "dotd_150_03.wav",
+        "update\\sound\\music\\zombat\\dotd_150_03.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412384",
+                "duration": "6.402132"
+            }
+        }
+    ],
+    [
+        "dotd_170_08.wav",
+        "update\\sound\\music\\zombat\\dotd_170_08.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1412225",
+                "duration": "5.647075"
+            }
+        }
+    ],
+    [
+        "dotd_80_01.wav",
+        "update\\sound\\music\\zombat\\dotd_80_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1411637",
+                "duration": "12.000000"
+            }
+        }
+    ],
+    [
+        "dotd_end_01.wav",
+        "update\\sound\\music\\zombat\\dotd_end_01.wav",
+        {
+            "streams": [
+                {
+                    "codec_name": "pcm_s16le",
+                    "channels": 2,
+                    "sample_rate": "44100"
+                }
+            ],
+            "format": {
+                "format_name": "wav",
+                "bit_rate": "1413580",
+                "duration": "2.204807"
+            }
+        }
+    ]
+]

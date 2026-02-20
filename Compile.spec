@@ -2,10 +2,15 @@
 
 block_cipher = None
 
+from pathlib import Path
+
+project_root = Path(__file__).resolve().parent
+ffmpeg_bin = project_root / 'ffmpeg-file' / 'ffmpeg.exe'
+
 a = Analysis(
     ['ui\\MainGUI.py'],
     pathex=['ui'],
-    binaries=[('D:\\ffmpeg-N-116133-g03175b587c-win64-gpl\\bin\\ffmpeg.exe', '.'),('D:\\ffmpeg-N-116133-g03175b587c-win64-gpl\\bin\\ffprobe.exe', '.')],
+    binaries=[(str(ffmpeg_bin), '.')],
     datas=[("E:\\__PythonProject__\\L4D2AudioTranformer_All\\dicGenerate\\*.db", "dicGenerate"),("blank_audio.wav",".")],
     hiddenimports=['ffmpeg', 'PySide6'],
     hookspath=[],
@@ -31,7 +36,7 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True,
+    console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
     icon=None,

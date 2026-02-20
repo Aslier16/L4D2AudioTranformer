@@ -5,3 +5,5 @@
 /dist
 /output
 /ui/__pycache__
+/ffmpeg-file
+/.venv-1

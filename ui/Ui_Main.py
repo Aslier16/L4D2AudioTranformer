@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'Main.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.8.0
+## Created by: Qt User Interface Compiler version 6.8.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -81,7 +81,7 @@ class Ui_Form(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 118, 567))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 118, 561))
         self.gridLayout = QGridLayout(self.scrollAreaWidgetContents)
         self.gridLayout.setObjectName(u"gridLayout")
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
@@ -115,7 +115,7 @@ class Ui_Form(object):
         self.controlPannel.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignTop)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 430, 636))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 430, 635))
         self.verticalLayout_4 = QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.optionBox = QGroupBox(self.scrollAreaWidgetContents_2)
@@ -312,7 +312,7 @@ class Ui_Form(object):
         self.fileChooseBtn.setText(QCoreApplication.translate("Form", u"\u9009\u62e9\u6587\u4ef6", None))
         self.searchBar_target.setText("")
         self.searchBar_target.setPlaceholderText(QCoreApplication.translate("Form", u"\u8f93\u5165\u97f3\u9891\u540d\u4ee5\u8fdb\u884c\u68c0\u7d22", None))
-        self.targetSort_ComboBox.setPlaceholderText(QCoreApplication.translate("Form", u"\u7c7b\u578b", None))
+        self.targetSort_ComboBox.setPlaceholderText(QCoreApplication.translate("Form", u"\u8def\u5f84", None))
         self.searchBar_input.setPlaceholderText(QCoreApplication.translate("Form", u"\u641c\u7d22", None))
 #if QT_CONFIG(whatsthis)
         self.optionBox.setWhatsThis("")
