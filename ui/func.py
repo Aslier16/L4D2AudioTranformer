@@ -705,10 +705,12 @@ def transAudio(self, source: str , targetIndex: int, index: int) -> tuple:
                     )
                 )
         else:
+            # 未启用淡入淡出（或时长为 0）时也必须应用音量，否则音量设置会被忽略
             if not self.timeConsistent.isChecked():
                 ffmpeg_cmd = (
                     ffmpeg
                     .input(source)
+                    .filter('volume', volume=volume_target, precision='float')
                     .output(
                         str(original),
                         format=format_name,
@@ -724,6 +726,7 @@ def transAudio(self, source: str , targetIndex: int, index: int) -> tuple:
                 ffmpeg_cmd = (
                     ffmpeg
                     .input(source)
+                    .filter('volume', volume=volume_target, precision='float')
                     .output(
                         str(original),
                         format=format_name,

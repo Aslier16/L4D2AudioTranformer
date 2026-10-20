@@ -4,14 +4,14 @@ block_cipher = None
 
 from pathlib import Path
 
-project_root = Path(__file__).resolve().parent
+project_root = Path(SPECPATH).resolve()
 ffmpeg_bin = project_root / 'ffmpeg-file' / 'ffmpeg.exe'
 
 a = Analysis(
-    ['ui\\MainGUI.py'],
-    pathex=['ui'],
+    [str(project_root / 'ui' / 'MainGUI.py')],
+    pathex=[str(project_root / 'ui')],
     binaries=[(str(ffmpeg_bin), '.')],
-    datas=[("E:\\__PythonProject__\\L4D2AudioTranformer_All\\dicGenerate\\*.db", "dicGenerate"),("blank_audio.wav",".")],
+    datas=[(str(project_root / 'dicGenerate' / '*.db'), "dicGenerate"), (str(project_root / 'blank_audio.wav'), ".")],
     hiddenimports=['ffmpeg', 'PySide6'],
     hookspath=[],
     hooksconfig={},
